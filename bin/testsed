@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for x
+do
+    sed -f sedscr $x
+done
