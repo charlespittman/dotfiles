@@ -1,4 +1,4 @@
 
 
 # OPAM configuration
-. /home/charles/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+. /home/cpittman/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

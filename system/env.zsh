@@ -1,1 +1,1 @@
-export EDITOR='atom'
+export EDITOR='ec -c'
