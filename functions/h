@@ -1,0 +1,6 @@
+# Usage: h <word>
+# Description: searches history for word
+
+h() {
+    history 0 | grep "$@" -i --color=auto;
+}

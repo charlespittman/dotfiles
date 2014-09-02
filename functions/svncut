@@ -1,0 +1,6 @@
+# Usage: svncut
+# Description: Gets a list of filenames with changes in a svn-controlled directory
+
+svncut() {
+    svn status | rev | cut -d' ' -f1 | rev
+}

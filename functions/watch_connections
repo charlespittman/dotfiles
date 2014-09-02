@@ -1,0 +1,6 @@
+# Usage: watch_connections
+# Description: Uses 'watch' and 'lsof' to list open network connections
+
+watch_connections() {
+    watch "lsof -i";
+}
