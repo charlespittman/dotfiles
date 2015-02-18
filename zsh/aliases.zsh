@@ -3,7 +3,7 @@ alias reload!='. ~/.zshrc'
 alias pd='pushd'
 alias po='popd'
 
-alias trash='gvfs-trash'
+alias t='gvfs-trash'
 
 alias l='ls -lah'           # Long view, show hidden
 alias la='ls -AF'           # Compact view, show hidden
